@@ -3,6 +3,10 @@ My Solutions to HackerRank Problems (currently moving solutions)
 
 Profile: justintteng
 
-Languages Used: Mainly C++, some Python3, MySQL for SQL problems
+**Languages Used**
+General Problems: Mainly C++, some Python
+Language Specific Problems: C++/Java/Python
+Functional Programming: Haskell
+SQL: MySQL
 
-Upcoming Repositories: kattis.com, leetcode.com, codingame.com, hardest codingbat problems
+Upcoming Related Repositories: kattis.com, leetcode.com, codingame.com, hardest codingbat problems
