@@ -37,26 +37,29 @@ vector<int> checkCondition2(vector<int>* arr) {
 
 // Complete the almostSorted function below.
 void almostSorted(vector<int> arr) {
-    // Notes: arr needs to be in ASCENDING order, each element in arr is distinct
-    // Operation 0: arr is already sorted
-    // Operation 1: arr must swap exactly 2 elements to be sorted
-    //    a) Exactly 1 element is out-of-order
-    //        i) If the element can be swapped with one of its neighbors, Yes; else, No
-    //    b) Exactly 2 elements are out-of-order
-    //        i) If the 2 elements can be swapped to satisfy order, Yes; else, No
-    // Operation 2: arr must be sorted EXCEPT for a subsequence that is in reverse order
-    //    a) The subsequence must contain elements that are in reverse order
-    //    b) The rest of the array must be already sorted
-    //    c) Determine the start and end indicies of the subsequence
-    //
-    // IMPLEMENTATION:
-    // First Pass: Check for condition 0, 1
-    //    When an element is found
-    // Second Pass: (If condition 0,1 are not met) Check for condition 2
-    // <ALTERNATIVELY>
-    // (Do above in 1 pass)
+    /*
+     * Notes: arr needs to be in ASCENDING order, each element in arr is distinct
+     * Operation 0: arr is already sorted
+     * Operation 1: arr must swap exactly 2 elements to be sorted
+     *   a) Exactly 1 element is out-of-order
+     *       i) If the element can be swapped with one of its neighbors, Yes; else, No
+     *   b) Exactly 2 elements are out-of-order
+     *       i) If the 2 elements can be swapped to satisfy order, Yes; else, No
+     * Operation 2: arr must be sorted EXCEPT for a subsequence that is in reverse order
+     *   a) The subsequence must contain elements that are in reverse order
+     *   b) The rest of the array must be already sorted
+     *   c) Determine the start and end indicies of the subsequence
+     *
+     * IMPLEMENTATION:
+     * First Pass: Check for condition 0, 1
+     *   When an element is found
+     * Second Pass: (If condition 0,1 are not met) Check for condition 2
+     * <ALTERNATIVELY>
+     * (Do above in 1 pass)
+     *
+     * FIRST PASS: Check for Condition 0, 1:
+     */
     
-    // FIRST PASS: Check for Condition 0, 1:
     int x1 = -1, i1 = -1, x2 = -1, i2 = -1;
     int numWrong = 0;
     bool op0 = false;
