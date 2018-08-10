@@ -1,6 +1,8 @@
 # HackerRank
 My Solutions to HackerRank Problems (currently moving solutions)
 
+All solutions received full points.
+
 Profile: justintteng
 
 **Languages Used**
