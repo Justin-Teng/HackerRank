@@ -4,7 +4,7 @@ using namespace std;
 
 // Complete the funnyString function below.
 string funnyString(string s) {
-    for (int i = 0; i < s.size()-1; i++) {
+    for (int i = 0; i < s.size()/2; i++) {
         if (abs(s.at(i) - s.at(i+1)) != abs(s.at(s.size()-i-1) - s.at(s.size()-i-2)))
             return "Not Funny";
     }
