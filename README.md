@@ -1,5 +1,5 @@
 # HackerRank
-My Solutions to HackerRank Problems (currently moving solutions)
+My Solutions to HackerRank Problems
 
 All solutions received full points.
 
