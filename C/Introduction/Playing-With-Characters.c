@@ -7,7 +7,6 @@ int main()
 {
     char c;
     scanf("%c", &c);
-    scanf("\n");
     
     char string[256];
     scanf("%s", string);
