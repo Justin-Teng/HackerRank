@@ -9,7 +9,7 @@ Profile: justintteng
 
 General Problems: Mainly C++, some Python
 
-Language Specific Problems: C++/Java/Python
+Language Specific Problems: C/C++/Java/Python/Ruby
 
 Functional Programming: Haskell
 
